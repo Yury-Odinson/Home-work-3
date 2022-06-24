@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* Задаём значение rem в 10px*/
+    font-family: 'Roboto', Courier, monospace;
+    background-color: rgb(240, 248, 255);
+}
+
+header {
+    border-bottom: 2px solid rgb(204, 204, 204);
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    text-shadow: 3px 3px 5px rgb(150, 149, 149);
+}
+
+h2 {
+    margin: 10px;
+}
+
+table {
+    margin: 30px auto;
+    background-color: white;
+    border-collapse: collapse;
+    font-size: 2rem;
+}
+
+tr,
+td {
+    border: 2px solid rgb(138, 138, 138);
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    position: absolute; /* задаём абсолютную позицию для привязки в низу страницы*/
+    bottom: 0; /* Привязываем к низу страницы */
+    border-top: 1px solid rgb(204, 204, 204);
+}
